@@ -1,0 +1,95 @@
+.Content {
+  height: auto;
+  width: 80%;
+  background-color: white;
+  float: left;
+  margin: 50px 0% 0px 10%;
+  box-sizing: border-box;
+}
+.categories {
+  height: 50px;
+  line-height: 50px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.List-Product {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.Product {
+  width: 25%;
+  float: left;
+  border: 1px rgb(226, 223, 223) solid;
+  color: black;
+}
+
+.Product-Price:hover {
+  text-decoration: underline;
+}
+
+.Product-Image {
+  width: 100%;
+}
+
+img {
+  border-radius: 10px;
+  width: 200px;
+}
+
+.Product-Price {
+  color: black;
+  font-style: italic;
+  text-decoration: none;
+  height: 30px;
+  margin: 10px 0px 20px 0px;
+}
+
+.AddToCart {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.btnAddToCart {
+  height: 35px;
+  width: 90%;
+  border-radius: 5px;
+  background-color: #fff5f1;
+  float: left;
+  margin-left: 2%;
+  margin-bottom: 0px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #f7a18f;
+  color: #f7a18f;
+}
+
+.Product-Name {
+  height: 50px;
+  width: 100%;
+}
+.Product-Name p {
+  text-align: left;
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.newPrice {
+  margin: 0px 0px 0px 20px;
+  float: left;
+  line-height: 30px;
+  width: 120px;
+  height: 30px;
+  background-color: #cb1c22;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.oldPrice {
+  text-decoration: line-through;
+  margin: 0px 20px 0px 0px;
+  float: right;
+  line-height: 30px;
+  font-size: 15px;
+}
